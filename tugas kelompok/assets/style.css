@@ -1,0 +1,126 @@
+.container{
+    font-family: sans-serif;
+    font-style: oblique;
+    font-weight: bolder;
+    margin-top: 30px;
+    margin-left: 20px;
+
+    /*animation*/
+    animation: fadeIn ease 5s;
+-webkit-animation: fadeIn ease 5s;
+}
+
+@keyframes fadeIn {
+0% {opacity:0;}
+100% {opacity:1;}
+}
+
+@-moz-keyframes fadeIn {
+0% {opacity:0;}
+100% {opacity:1;}
+}
+
+@-webkit-keyframes fadeIn {
+0% {opacity:0;}
+100% {opacity:1;}
+}
+
+@-o-keyframes fadeIn {
+0% {opacity:0;}
+100% {opacity:1;}
+}
+
+@-ms-keyframes fadeIn {
+0% {opacity:0;}
+100% {opacity:1;}
+}
+
+
+header{
+    color: black;
+    font-size: 80;
+    margin-bottom: 20px;
+}
+
+   .navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+  }
+  
+  .navbar li {
+    float: left;
+  }
+  
+  .navbar li a, .dropbtn {
+    font-size: 30;
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 10px 12px;
+    text-decoration: none;
+  }
+  
+  .navbar li a:hover, .dropdown:hover .dropbtn {
+    background-color: white;
+    color: black;
+  }
+  
+  li.dropdown {
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 8px 12px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover {background-color: #f1f1f1;}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+.navbar input[type=text] {
+    font-family: sans-serif;
+    font-style: oblique;
+    float: right;
+    padding: 8px 12px;
+    border: none;
+    margin-top: 2px;
+    margin-right: 30px;
+    font-size: 24px;
+  }
+  footer
+{
+text-align: center;
+font-family: arial;
+margin-left: auto;
+margin-right: auto;
+}
+footer ul 
+{
+padding: 0;
+}
+footer ul li {
+display: inline-block;
+}
+footer ul li a {
+padding: 10px 20px;
+text-decoration: none;
+}
+
